@@ -1,0 +1,90 @@
+/* Style for h2 elements */
+h2 {
+    font-family: 'Impact', sans-serif;
+  }
+  
+  /* Style for paragraph elements */
+  p {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+  }
+  
+  /* Style for #cardInfo when hovered */
+  #cardInfo:hover {
+      background-color: #f1f1f1;
+      transform: scale(1.05);   
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Change h2 color when hovering over #cardInfo */
+  #cardInfo:hover h2 {
+      color: #12673b;
+  }
+  
+  /* Initially hide the .contact-us-btn button and reveal it on hover */
+  .contact-us-btn {
+      opacity: 0;
+  }
+  
+  .card:hover .contact-us-btn {
+      opacity: 1;
+  }
+  
+  /* Styling for the Prev and Next buttons, including hover effects */
+  #prevButton, #nextButton {
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      padding: 10px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  
+  /* Position the Prev and Next buttons */
+  #prevButton {
+      left: 20px;
+  }
+  
+  #nextButton {
+      right: 20px;
+  }
+  
+  /* Hover effect for Prev and Next buttons */
+  #prevButton:hover, #nextButton:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+      transition: all 0.3s ease;
+  }
+  
+  /* Styling for the Prev and Next button icons */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+      background-color: white;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+  }
+  
+  #banner:hover h2 {
+    color: rgb(255, 208, 0);
+}
+
+
+.card-hover:hover {
+    border: 2px solid #5b5b5b7b; 
+}
+
+.navbar-custom {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+}
+
+.highlight {
+    background-color: yellow; /* You can change this color to whatever you want */
+    font-weight: bold; /* Optional: to make the text bold */
+}
+
+
+ 
