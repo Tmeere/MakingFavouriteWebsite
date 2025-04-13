@@ -1,5 +1,4 @@
-Here's a cleaner, more professional, and engaging version of your README that keeps your voice but enhances clarity, structure, and tone:
-
+LINK TO SITE : https://warhammermocksite.netlify.app/
 ---
 
 # Games Workshop-Inspired Store Page
@@ -55,5 +54,3 @@ This project was both challenging and rewarding. It deepened my understanding of
 - Structuring components for scalability and future development
 
 ---
-
-Let me know if you'd like a version with screenshots, deployment instructions, or GitHub-specific formatting (like badges or a live link section)!
